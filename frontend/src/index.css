@@ -1,0 +1,79 @@
+
+main{
+  min-height: 80vh;
+}
+
+.price{
+  padding: 1rem 0;
+}
+
+.nav-links{
+  margin-left: auto;
+}
+
+.nav-links i{
+  margin-right: 10px;
+}
+
+.rating span{
+  margin : 0.1rem
+}
+
+.title{
+  color: black;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.title:hover{
+  text-decoration: underline;
+}
+
+.butt{
+  color: white;
+  background-color: black;
+}
+
+.spinner-div{
+  display: grid;
+  align-items: center;
+  place-items: center;
+}
+
+.button-div{
+  display: grid;
+  place-items: center;
+}
+
+.button{
+ display: block;
+
+}
+
+.trash-btn{
+  background: none;
+  background-color: white;
+  border: none;
+}
+
+.trash-btn:hover{
+  background-color: white;
+  border: none;
+  background:none;
+}
+
+.logout:visited{
+  color: white;
+}
+
+.shipping, .name, .email, .address{
+  line-height: 20px;
+}
+
+.name, .payment,.row{
+  margin-top: 25px;
+}
+
