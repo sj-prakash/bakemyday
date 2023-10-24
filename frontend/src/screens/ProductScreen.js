@@ -39,7 +39,7 @@ const ProductScreen = () => {
         {loading ? <Loader/> : error ? <Message variant ='danger'>{error}</Message> :(
             <Row>
             <Col md={6}>
-                <Image src={product.image} alt={product.name} fluid/>
+                <Image style={{width: '500px' , height: '500px'}} src={product.image} alt={product.name} fluid/>
             </Col>
 
             <Col md={3}>

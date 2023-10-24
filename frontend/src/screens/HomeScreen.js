@@ -6,7 +6,7 @@ import Loader from '../components/Loader'
 import { Row, Col } from 'react-bootstrap'
 import {useDispatch, useSelector} from 'react-redux'
 import { listProducts } from '../actions/productActions'
-import Image from '../components/Image'
+
 
 
 const HomeScreen = () => {
@@ -24,7 +24,7 @@ const HomeScreen = () => {
   return (
     <>
      
-    <Image></Image>
+    
      <h1>Latest Products</h1>
      {loading ? <Loader/> : error ? <Message variant = 'danger'>{error}</Message> : <Row>
      {products.map(product =>(
