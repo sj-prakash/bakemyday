@@ -20,7 +20,7 @@ const Header = ({ showImage }) => {
       <Navbar expand="lg" bg="black" variant="dark" collapseOnSelect sticky="top">
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>The Treasure Cart</Navbar.Brand>
+            <Navbar.Brand>Bakemyday</Navbar.Brand>
           </LinkContainer>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
